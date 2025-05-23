@@ -81,16 +81,16 @@ var randomItem = selectRandomItem(items);
 ╔═════════════════
 ║ *SESSION CONNECTED*         
 ╠═════════════════
-║ *© INCONNU BOY TECH*         
+║ *© PRINCE JUNIOR V2 TECH*         
 ╚═════════════════
 `; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "INCONNU BOY TECH",
+title: "PRINCE JUNIOR V2 TECH",
 thumbnailUrl: "https://files.catbox.moe/e1k73u.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6T8td5K3zQZbsKEU1R",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5U5AI3wtb8r6Gbex2p",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -99,14 +99,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying*\n\n ◦ *Github:* https://github.com/INCONNU-BOY/INCONNU-XD-V2`;
+                            let desc = `*Don't Share with anyone this code use for deploying*\n\n ◦ *Github:* https://github.com/Nyanuga/Prince-junior-v2`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "INCONNU BOY TECH",
+title: "PRINCE JUNIOR V2 TECH",
 thumbnailUrl: "https://files.catbox.moe/e1k73u.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vb6T8td5K3zQZbsKEU1R",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5U5AI3wtb8r6Gbex2p",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
