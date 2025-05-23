@@ -89,7 +89,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "PRINCE JUNIOR V2 TECH",
-thumbnailUrl: "https://files.catbox.moe/e1k73u.jpg",
+thumbnailUrl: "https://files.fm/u/m44v3gqasz",
 sourceUrl: "https://whatsapp.com/channel/0029Vb5U5AI3wtb8r6Gbex2p",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -105,7 +105,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "PRINCE JUNIOR V2 TECH",
-thumbnailUrl: "https://files.catbox.moe/e1k73u.jpg",
+thumbnailUrl: "https://files.fm/u/m44v3gqasz",
 sourceUrl: "https://whatsapp.com/channel/0029Vb5U5AI3wtb8r6Gbex2p",
 mediaType: 2,
 renderLargerThumbnail: true,
