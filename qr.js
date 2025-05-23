@@ -20,7 +20,7 @@ function removeFile(FilePath) {
 router.get('/', async (req, res) => {
     const id = makeid();
  //   let num = req.query.number;
-    async function GIFTED_MD_PAIR_CODE() {
+    async function PRINCE_JUNIOR_V2_PAIR_CODE() {
         const {
             state,
             saveCreds
@@ -126,7 +126,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    GIFTED_MD_PAIR_CODE();
+                    PRINCE_JUNIOR_V2_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -137,7 +137,7 @@ showAdAttribution: true
             }
         }
     }
-    await GIFTED_MD_PAIR_CODE();
+    await PRINCE_JUNIOR_V2_PAIR_CODE();
 });
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
