@@ -76,7 +76,7 @@ var randomItem = selectRandomItem(items);
 ╔═════════════════
 ║ *SESSION CONNECTED*         
 ╠═════════════════
-║ *© INCONNU BOY TECH*         
+║ *© PRINCE JUNIOR V2 TECH*         
 ╚═════════════════
 
                         `; 
