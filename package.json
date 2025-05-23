@@ -4,9 +4,9 @@
     "description": "A multi functional whatsapp bot Web paircode.",
     "main": "index.js",
     "scripts": {
-      "start": "pm2 start index.js --deep-monitoring --attach --name Damon-md",
-      "stop": "pm2 stop Damon-md",
-     "restart": "pm2 restart vajira-md"
+      "start": "pm2 start index.js --deep-monitoring --attach --name Prince-Junior-v2",
+      "stop": "pm2 stop Prince-Junior-v2",
+     "restart": "pm2 restart vajira-Prince-Junior-v2"
     },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.16",              
