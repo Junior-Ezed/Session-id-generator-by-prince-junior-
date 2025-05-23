@@ -84,9 +84,9 @@ var randomItem = selectRandomItem(items);
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "INCONNNU BOY TECH",
+title: "PRINCE JUNIOR V2 TECH",
 thumbnailUrl: "https://files.catbox.moe/88o37i.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VaojbRDKrWR2a38S5O1k",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5U5AI3wtb8r6Gbex2p",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -100,16 +100,16 @@ renderLargerThumbnail: true
 ╔═════════════════
 ║ *SESSION CONNECTED*         
 ╠═════════════════
-║ *© INCONNU BOY TECH*         
+║ *© PRINCE JUNIOR V2 TECH*         
 ╚═════════════════
 `; 
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: " INCONNU BOY TECH  ",
+title: " PRINCE JUNIOR V2 TECH  ",
 thumbnailUrl: "https://files.catbox.moe/88o37i.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VaojbRDKrWR2a38S5O1k",
+sourceUrl: "https://whatsapp.com/channel/0029Vb5U5AI3wtb8r6Gbex2p",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
