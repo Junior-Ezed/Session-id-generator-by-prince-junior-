@@ -89,7 +89,7 @@ text: desc,
 contextInfo: {
 externalAdReply: {
 title: "PRINCE JUNIOR V2 TECH",
-thumbnailUrl: "https://files.catbox.moe/dupytm.jpg",
+thumbnailUrl: "https://files.catbox.moe/5ig7g1.png",
 sourceUrl: "https://whatsapp.com/channel/0029Vb5U5AI3wtb8r6Gbex2p",
 mediaType: 1,
 renderLargerThumbnail: true
@@ -99,7 +99,7 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*Don't Share with anyone this code use for deploying*\n\n ◦ *Github:* https://github.com/Nyanuga/Prince-junior-v2`;
+                            let desc = `*Don't Share with anyone this code use for deployingdeploying PRINCE JUNIOR V2*\n\n ◦ *Github:* https://github.com/Junior-Ezed/PRINCE-JUNIOR-V2-`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
