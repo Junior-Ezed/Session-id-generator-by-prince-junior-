@@ -19,7 +19,7 @@ router.get('/', async (req, res) => {
             saveCreds
         } = await useMultiFileAuthState('./temp/' + id);
         try {
-var items = ["Safari"];
+var items = ["Ubutu"];
 function selectRandomItem(array) {
   var randomIndex = Math.floor(Math.random() * array.length);
   return array[randomIndex];
@@ -35,12 +35,12 @@ var randomItem = selectRandomItem(items);
                 generateHighQualityLinkPreview: true,
                 logger: pino({ level: "fatal" }).child({ level: "fatal" }),
                 syncFullHistory: false,
-                browser: Browsers.macOS(randomItem)
+                browser: Browsers.Ubutu(randomItem)
             });
             if (!sock.authState.creds.registered) {
                 await delay(1500);
                 num = num.replace(/[^0-9]/g, '');
-                const code = await sock.requestPairingCode(num);
+                const code = await sock. requestPairingCode(num);
                 if (!res.headersSent) {
                     await res.send({ code });
                 }
@@ -75,7 +75,7 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "PRINCE~JUNIOR~V2~" + string_session;
+                        let md = "PRINCE~JUNIOR~V2~" +string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `                    
 ╔═════════════════
